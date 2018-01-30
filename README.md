@@ -78,7 +78,7 @@ You should see - <br>
 `* fix-typo` <br>
 `master` <br>
  
-22. Now, open this file from the IDE file explorer and cerrect tihs typo, save the file `ctrl + S`
+22. Now, open this file from the IDE file explorer and correct this typo, save the file `ctrl + S`
  
 23. To view your changes in your branch - `git status`
  
