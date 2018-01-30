@@ -24,8 +24,7 @@ The cmd will tell you the present working directory which should be `C:/workspac
 You should see a folder `khan-omar` in your workspace `C:\workspace\khan-omar`<br><br>
 Message me once you're done, pat yourself on the back and then we'll talk about making the website.
  
----
- 
+
 # Next Steps
  
 8. Get familiarized with the IDE, learn the common keyboard shortcuts from the help menu.
