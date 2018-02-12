@@ -96,3 +96,54 @@ You'll see a bunch of output lines and a success message. Go to https://github.c
 27. To create a "Pull Request", go to https://github.com/shaeqkhan/khan-omar/pulls and click the "New pull request" green button. Select "base:master" and "compare:fix-typo". The "base" branch is the one you want to merge to. The "compare" branch is the one that has your work. The UI will show you the change you made. If things look good, click "Create pull request". I'll get an email once you do this and when I "accept" your request, you will see that issue #1 will close automatically.
  
 28. We'll do some practice with git to get you comfortable first. Great job so far! If you understand this then you know enough to start contributing to open source projects.
+
+
+# Get familiar with Forks
+
+29. Login to your github account and got to the [repo page](https://github.com/shaeqkhan/khan-omar). Click the `Fork` button on the top right of this page. This will create a copy of the project in your github account. You can now work on the files locally and push to your copy and finally get it in to my repo by creating pull requests.
+
+30. For this, you need to re-setup your local workspace. Simple no hassle way to do this - <br>
+`cd C:\workspace\` <br>
+`rm -rf khan-omar` <br>
+This will delete your repository on the local machine.
+
+31. After you `Fork`, your repo will probably be at this url `https://github.com/ris-tlp/khan-omar`
+
+32. Clone your repo into the local workspace - <br>
+`git clone https://github.com/ris-tlp/khan-omar.git` <br>
+`cd C:\workspace\khan-omar`
+
+33. Now we need to keep your version of the repo connected with my version. <br>
+`git remote add upstream https://github.com/shaeqkhan/khan-omar.git` <br><br>
+If you type this command `git remote -v` this should show - <br><br>
+`origin  https://github.com/ris-tlp/khan-omar.git (fetch)` <br>
+`origin  https://github.com/ris-tlp/khan-omar.git (push)` <br>
+`upstream  https://github.com/shaeqkhan/khan-omar.git (fetch)` <br>
+`upstream  https://github.com/shaeqkhan/khan-omar.git (push)` <br><br>
+This means that now you have access to both repos from your local development space. Typically, you will not have access to push code directly to my repository (or anyone else's personal repo) so when you fork you can make changes to your version of my repository and then submit changes using Pull Requests. <br><br>
+In simple words, always pull from upstream and always push to origin. Read more [here](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow).
+
+34. `cd C:\workspace\khan-omar` <br>
+`git fetch upstream` <br>
+`git checkout template` <br>
+You should see the new files and folders for the static website.
+
+35. Branch off to a new branch where you will make all your changes. The following command creates a copy of the template branch into a new branch for you. <br>
+`git branch update-content` <br>
+Make all the changes you want to the html file. <br>
+`git add .` <br>
+`git commit -m "new content for website"` <br>
+`git push origin update-content` <br>
+
+36. Create a Pull Request but this time it will be across forks like this - <br>
+`ris-tlp/update-content -> shaeqkhan/master`
+
+37. Login to AWS to verify you have access.
+
+38. Get familiar with [Cloud Computing](https://www.youtube.com/watch?v=jOhbTAU4OPI).
+
+39. We will use [AWS Route53](https://www.youtube.com/watch?v=xfCKXuofY60) and [AWS S3](https://www.youtube.com/watch?v=77lMCiiMilo) to get your website live. For now, get familiar with these and I will show you how to create the following -
+* Register a domain name - AWS Route53
+* Create a S3 bucket for website content - AWS S3
+* Configure the S3 bucket to serve static content - AWS S3
+* Configure reroutes for internet traffic coming to your domain - AWS Route53
