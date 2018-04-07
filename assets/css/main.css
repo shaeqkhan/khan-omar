@@ -534,24 +534,24 @@
 			}
 
 				#header nav li:nth-child(1) {
-					-moz-animation-delay: 0.5s;
-					-webkit-animation-delay: 0.5s;
-					-ms-animation-delay: 0.5s;
-					animation-delay: 0.5s;
+					-moz-animation-delay: 0.15s;
+					-webkit-animation-delay: 0.15s;
+					-ms-animation-delay: 0.15s;
+					animation-delay: 0.15s;
 				}
 
 				#header nav li:nth-child(2) {
-					-moz-animation-delay: 0.5s;
-					-webkit-animation-delay: 0.5s;
-					-ms-animation-delay: 0.5s;
-					animation-delay: 0.5s;
+					-moz-animation-delay: 0.25s;
+					-webkit-animation-delay: 0.25s;
+					-ms-animation-delay: 0.25s;
+					animation-delay: 0.25s;
 				}
 
 				#header nav li:nth-child(3) {
-					-moz-animation-delay: 3s;
-					-webkit-animation-delay: 3s;
-					-ms-animation-delay: 3s;
-					animation-delay: 3s;
+					-moz-animation-delay: 0.35s;
+					-webkit-animation-delay: 0.35s;
+					-ms-animation-delay: 0.35s;
+					animation-delay: 0.35s;
 				}
 
 				#header nav li:nth-child(4) {
