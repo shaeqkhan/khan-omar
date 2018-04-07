@@ -295,22 +295,8 @@
 		}
 	}
 
-*/	#overlay {
-		-moz-animation: overlay 1.5s 1.5s forwards;
-		-webkit-animation: overlay 1.5s 1.5s forwards;
-		-ms-animation: overlay 1.5s 1.5s forwards;
-		animation: overlay 1.5s 1.5s forwards;
-		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		height: 100%;
-		left: 0;
-		opacity: 0;
-		position: fixed;
-		top: 0;
-		width: 100%;
+	#overlay {
+	
 	}
 
 /* Main */
@@ -480,10 +466,10 @@
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 1s forwards;
+		-webkit-animation: header 1s forwards;
+		-ms-animation: header 1s forwards;
+		animation: header 1s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -542,17 +528,17 @@
 			}
 
 				#header nav li:nth-child(1) {
-					-moz-animation-delay: 2.5s;
-					-webkit-animation-delay: 2.5s;
-					-ms-animation-delay: 2.5s;
-					animation-delay: 2.5s;
+					-moz-animation-delay: 0.5s;
+					-webkit-animation-delay: 0.5s;
+					-ms-animation-delay: 0.5s;
+					animation-delay: 0.5s;
 				}
 
 				#header nav li:nth-child(2) {
-					-moz-animation-delay: 2.75s;
-					-webkit-animation-delay: 2.75s;
-					-ms-animation-delay: 2.75s;
-					animation-delay: 2.75s;
+					-moz-animation-delay: 0.5s;
+					-webkit-animation-delay: 0.5s;
+					-ms-animation-delay: 0.5s;
+					animation-delay: 0.5s;
 				}
 
 				#header nav li:nth-child(3) {
