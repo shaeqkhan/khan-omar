@@ -115,7 +115,7 @@
 		}
 
 /* Wrapper */
-
+/*
 	@-moz-keyframes wrapper {
 		0% {
 			opacity: 0;
@@ -168,22 +168,11 @@
 		top: 0;
 		width: 100%;
 	}
-
+*/
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
-		-moz-backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
-		backface-visibility: hidden;
-		-moz-transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
-		-ms-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
+		
 	/* Set your background with this */
 
 		background: #348cb2 url("images/bg.jpg") bottom left;
@@ -306,7 +295,7 @@
 		}
 	}
 
-	#overlay {
+*/	#overlay {
 		-moz-animation: overlay 1.5s 1.5s forwards;
 		-webkit-animation: overlay 1.5s 1.5s forwards;
 		-ms-animation: overlay 1.5s 1.5s forwards;
